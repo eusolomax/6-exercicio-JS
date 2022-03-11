@@ -12,7 +12,12 @@ let listaAtores = [
     {
       nome: 'Bruce Wayne',
       personagem: 'Batman',
-      filme: 'Baetretretrtererterttman - O Início'
+      filme: 'Batman - O Início'
+    },
+    {
+      nome: 'Joaquin Phoenix',
+      personagem: 'Coringa',
+      filme: 'Joker'
     },
 ]
 
@@ -23,7 +28,7 @@ function escrever(){
   var personagem = listaAtores[contador].personagem
   var filme = listaAtores[contador].filme
   
-  document.getElementById('conteudo').innerHTML += (`<div id="caixa"><h1 id="caixa-texto">${nome}</h1><p id="caixa-texto">Interpretra o personagem ${personagem} no filme ${filme}</p></div>`)
+  document.getElementById('conteudo').innerHTML += (`<div id="caixa"><h1 id="caixa-texto h1">${nome}</h1><p id="caixa-texto">Interpreta o personagem ${personagem} no filme ${filme}</p></div>`)
   }
 }
 
