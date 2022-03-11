@@ -1,8 +1,9 @@
  #caixa{
-    width: 348px;
-    height: 213px;
+    width: 308px;
+    height: 193px;
     float: left;
     background-color: rgb(26, 26, 26);
+    box-shadow: 0 0 17px rgba(0, 0, 0, 0.548);
     border-radius: 30px;
     color: aliceblue;
     margin: 3%;
