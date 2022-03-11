@@ -1,0 +1,18 @@
+ #caixa{
+    width: 348px;
+    height: 213px;
+    float: left;
+    background-color: rgb(26, 26, 26);
+    border-radius: 30px;
+    color: aliceblue;
+    margin: 3%;
+    font-size: 20px;
+    overflow: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+#caixa-texto {
+    position: relative;
+    top: 10%;
+}
